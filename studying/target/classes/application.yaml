@@ -1,0 +1,20 @@
+spring:
+  messages:
+    basename: i18n.login
+  datasource:
+    username: njsjdxjs
+    password: n33rDF5nrFjkeceD
+    url: jdbc:mysql://39.102.86.205:3306/njsjdxjs?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.jdbc.Driver
+  thymeleaf:
+    cache: false
+  mvc:
+    format:
+      date: yyyy/MM/dd
+  devtools:
+    restart:
+      enabled: false #设置开启热部署
+      additional-paths: /src/main/java  #需要重启的目录
+      exclude: WEB-INFO/**
+  freemarker:
+    cache: false  #页面不加载缓存,修改即时生效

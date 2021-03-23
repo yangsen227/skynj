@@ -7,7 +7,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 class StudyingApplicationTests {
 
     @Test
-    void contextLoads() {
-    }
+    public void ceshi(){
 
+    }
 }
+
+
+
