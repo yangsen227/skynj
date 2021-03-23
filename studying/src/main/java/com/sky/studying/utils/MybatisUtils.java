@@ -1,3 +1,4 @@
+/*
 package com.sky.studying.utils;
 
 import org.apache.ibatis.io.Resources;
@@ -29,3 +30,4 @@ public class MybatisUtils {
     public static SqlSession getSqlSession(){ return sqlSessionFactory.openSession(); }
 
 }
+*/
