@@ -21,12 +21,11 @@ public class User {
     private Integer auth;
     private String salt;
     private Integer uScore;
-    private Integer vip;
     private String dept;
     private String message;
     private String picture;
     private Integer uState;
     private String code;
-
+    private String sex;
 
 }

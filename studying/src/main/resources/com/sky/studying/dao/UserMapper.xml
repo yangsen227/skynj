@@ -4,8 +4,8 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.sky.studying.dao.UserMapper">
 
-    <select id="queryUserByNumber" parameterType="int" resultType="com.sky.studying.pojo.user">
-        select  * from nj_user where uid=#{uid}
+    <select id="userLogin" resultType="com.sky.studying.pojo.User">
+        select  * from nj_user where uname=#{uName}
     </select>
 
 </mapper>

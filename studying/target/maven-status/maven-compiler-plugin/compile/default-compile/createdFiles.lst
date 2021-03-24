@@ -1,0 +1,14 @@
+com\sky\studying\pojo\Lesson.class
+com\sky\studying\service\ScoreService.class
+com\sky\studying\service\serviceImpl\ScoreServiceImpl.class
+com\sky\studying\service\UserService.class
+com\sky\studying\dao\UserMapper.class
+com\sky\studying\pojo\User.class
+com\sky\studying\StudyingApplication.class
+com\sky\studying\pojo\Talk.class
+com\sky\studying\service\serviceImpl\UserServiceImpl.class
+com\sky\studying\controller\LoginController.class
+com\sky\studying\pojo\Load.class
+com\sky\studying\controller\ScoreController.class
+com\sky\studying\pojo\Score.class
+com\sky\studying\pojo\Consume.class
